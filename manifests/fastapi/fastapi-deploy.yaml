@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: whpark70/fastapi:env.COMMIT_ID-${BUILD_NUMBER}
+          image: whpark70/fastapi:env(COMMIT_ID)
           resources:
             requests:
               cpu: 100m
