@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: whpark70/fastapi:fc3e154-121
+          image: whpark70/fastapi:fc3e154-123
           resources:
             requests:
               cpu: 100m
